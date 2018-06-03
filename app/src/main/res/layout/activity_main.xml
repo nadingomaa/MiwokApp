@@ -7,38 +7,58 @@
     android:orientation="vertical"
     android:background="#fff7da"
     tools:context=".MainActivity">
-
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FD8E09">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:background="#FD8E09"
+        android:background="?android:attr/selectableItemBackground"
         android:onClick="goNumbers"
         style="@style/TVStyle"
         android:text="Numbers"
         />
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#379237">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:background="#379237"
+        android:background="?android:attr/selectableItemBackground"
         android:onClick="goFamilyMembers"
         style="@style/TVStyle"
         android:text="Family Members"
         />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8800A0">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:background="#8800A0"
+        android:background="?android:attr/selectableItemBackground"
         android:onClick="goColors"
         style="@style/TVStyle"
         android:text="Colors"
         />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0dc9e2">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:background="#0dc9e2"
+        android:background="?android:attr/selectableItemBackground"
         android:onClick="goPhrases"
         style="@style/TVStyle"
         android:text="Phrases"
         />
+    </FrameLayout>
 
 </LinearLayout>
